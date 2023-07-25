@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ATMConsultoria" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Custom your theme here. -->
+        <item name="colorPrimary">#424769</item>
+        <item name="colorPrimaryDark">#2d3250</item>
+        <item name="colorAccent">#f9b17a</item>
+        <item name="android:navigationBarColor">#2d3250</item>
+        <item name="aboutBackground">@android:color/white</item>
+    </style>
+
+    <style name="Theme.ATMConsultoria.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="Theme.ATMConsultoria.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark" />
+
+    <style name="Theme.ATMConsultoria.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
